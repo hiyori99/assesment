@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head prefix="og:http://ogp.me/ns#">
+  <head>
     <meta charset="UTF-8" />
     <meta name="twitter:card" content="summary" />
-    <meta property="og:url" content="https://hiyori99.github.io/assessment/assessment.html" />
-    <meta property="og:image" content="https://user-images.githubusercontent.com/82105285/181172452-c18cca05-ae63-4ab2-ab98-84fcf127c92a.jpg">
+    <meta
+      property="og:url"
+      content="https://hiyori99.github.io/assessment/assessment.html"
+    />
+    <meta property="og:image" content="https://user-images.githubusercontent.com/82105285/181174078-70d807dd-a187-4400-8ac6-ea988a1c794b.jpg">
     <meta property="og:title" content="あなたのいいところ診断" />
-    <meta property="og:description" content="N予備校プログラミング入門コースで制作した、「あなたのいいところ診断」サイトです。" />
+    <meta
+      property="og:description"
+      content="N予備校プログラミング入門コースで制作した、「あなたのいいところ診断」サイトです。"
+    />
     <link rel="stylesheet" href="assessment.css" />
     <title>あなたのいいところ診断</title>
-</head>
+  </head>
   <body>
     <h1>あなたのいいところは?</h1>
     <p>診断したい名前を入れて下さい</p>
     <input type="text" id="user-name" size="40" maxlength="20" />
     <button id="assessment">診断する</button>
     <div id="result-area"></div>
-    <div id="tweet-area">
         <!-- <a href="https://twitter.com/intent/tweet?button_hashtag=あなたの良いところ診断&ref_src=twsrc%5Etfw" 
            class="twitter-hashtag-button" 
            data-text="診断結果の文章が入る予定です" 
            data-show-count="false">
            Tweet #あなたの良いところ診断
         </a> -->
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
+    <div id="tweet-area"></div>
     <script src="assessment.js"></script>
   </body>
 </html>
